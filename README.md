@@ -22,7 +22,7 @@ A working example of bitwise operatirs as well as struct bitfields and array app
 
 # COMPILE
 
-`make packer` will create `packer.exe` - the binary with packer algorytthm.
+`make pack` will create `pack.exe` - the binary with packer algorytthm.
 
 `make struct` will create `struct.exe` - struct with bitfields.
 
@@ -40,4 +40,4 @@ Study the source code in `main.c` and `packer.h` to understand the workings of b
  
 # RESULTS
 
-I put some results in `test_results` file - those were obtained on `Darwin Kernel Version 14.3.0 root:xnu-2782.20.48~5/RELEASE_X86_64 x86_64`. Surprisingly the memory usage of `STRUCT` is still worse than `PACKER` despite using bitfields.
+I put some results in `test_results` file - those were obtained on `Darwin Kernel Version 14.3.0 root:xnu-2782.20.48~5/RELEASE_X86_64 x86_64`. Surprisingly the memory usage of `STRUCT` is still worse than `PACK` despite using bitfields.
