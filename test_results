@@ -1,0 +1,15 @@
+tested packer with PACK, Struct bit fields and traditional char arrays
+
+results for processing 2^30 (~ 1 Billion transactions):
+PACK :
+time 29 sec
+mem 524MB
+ARRAY
+time 25 sec
+mem 2097MB
+STRUCT
+time 27 sec
+mem 1049MB
+
+Conclusion:
+Using PACK can save up to 75% of RAM with about 12% time penalty
